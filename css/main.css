@@ -26,7 +26,7 @@ body {
 }
 
 .header {
-    height: 96Vh;
+    height: 100Vh;
     background-image: linear-gradient( rgba(0, 0, 0, 0.623), rgba(0, 0, 0, 0.596)), url(../images/aa.png);
     background-repeat: no-repeat;
     background-position: top;
@@ -47,7 +47,7 @@ body {
 
 .heading-primary--main {
     display: block;
-    font-size: 3.3rem;
+    as font-size: 3.3rem;
     font-weight: 700;
     letter-spacing: 1rem;
 }
@@ -125,4 +125,94 @@ body {
 .btn--gost:hover,
 .btn--gost:active {
     background-color: rgb(83, 66, 236);
+}
+
+.container {
+    background-color: #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: #F2EDED;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 30rem;
+    height: 25rem;
+}
+
+.about-h1 {
+    text-align: center;
+    display: absolute;
+    margin: 0;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.me {
+    width: 50rem;
+    height: 50rem;
+}
+
+.about {
+    background-color: #ccc;
+}
+
+.about__img {
+    border-radius: 50%;
+}
+
+.item__text {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.icon {
+    list-style: none;
+    display: inline-block;
+    margin: 1rem 1rem;
+    font-size: 2.5rem;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    background: #256EDC;
+    border-radius: 10%;
+}
+
+.ul__nav {
+    margin: 0;
+    padding: 0;
+}
+
+.icon__nav {
+    list-style: none;
+    display: inline;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.icon__nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-weight: 300;
+}
+
+.footer {
+    background-color: #484848;
+    display: block;
+    text-align: center;
+}
+
+.media {
+    flex: wrap;
+}
+
+.copyRight {
+    font-size: 1.2rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
 }
