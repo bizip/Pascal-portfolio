@@ -171,6 +171,10 @@ body {
     font-weight: 400;
 }
 
+.social__media {
+    color: white;
+}
+
 .icon {
     list-style: none;
     display: inline-block;
