@@ -197,12 +197,22 @@
         top: 0;
         transform: rotate(-45deg);
     }
+    .contact__form {
+        border-radius: 4rem;
+        height: 70rem;
+        background-color: hsl(0, 2%, 26%);
+        text-align: center;
+        margin: 1rem;
+    }
 }
 
 
 /* Small phone from 0 up to 480px */
 
 @media only screen and (max-width:480px) {
+    .contact__form {
+        margin: 1rem;
+    }
     .heading-primary--main {
         display: block;
         font-size: 2.3rem;
@@ -316,5 +326,12 @@
     .navigation__checkbox:checked~.navigation__nav {
         opacity: 1;
         width: 100%;
+    }
+    .contact__form {
+        border-radius: 4rem;
+        height: 70rem;
+        background-color: hsl(0, 2%, 26%);
+        margin: 3rem 8rem;
+        text-align: center;
     }
 }
