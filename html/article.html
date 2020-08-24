@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/queries.css">
     <link rel="stylesheet" href="../css/contact.css">
-    <link rel="stylesheet" href="../css/login.css">
-    <title>Sign Up | Bizimungu pascal</title>
+    <link rel="stylesheet" href="../css/blog.css">
+    <title>New article | Bizimungu pascal</title>
 </head>
 
 <body>
@@ -23,9 +23,9 @@
 
         <div class="navigation__background">&nbsp;</div>
         <nav class="navigation__nav">
-            <li class="navigation__item"><a href="/index.html#aboutMe" class="navigation__link">About</a></li>
+            <li class="navigation__item"><a href="index.html" class="navigation__link">About</a></li>
             <li class="navigation__item"><a href="contact.html" class="navigation__link">Contact</a></li>
-            <li class="navigation__item"><a href="./blog.html" class="navigation__link">Blog</a></li>
+            <li class="navigation__item"><a href="#" class="navigation__link">Blog</a></li>
             <li class="navigation__item"><a href="../html/login.html" class="navigation__link">Login</a></li>
             </ul>
         </nav>
@@ -35,37 +35,68 @@
         <div class="row">
             <img src="../images/bzp-logo.png" alt="bzp logo" class="logo">
             <ul class="main-nav">
-                <li><a href="/index.html#aboutMe">About</a></li>
+                <li><a href="../index.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="blog.html">Blog</a></li>
                 <li><a href="../html/login.html">Login</a></li>
             </ul>
         </div>
     </nav>
-    <section class="contactMe">
-        <div class="contact__form">
-            <h1 class="contact__heading">
-                Login
-            </h1>
 
-            <form action="#" method="post" class="form__input">
-                <label for="email">Full Name: <input type="text" id="email"></label><br><br>
-                <label for="subject">Email: <input type="text" id="subject"></label><br><br>
-                <label for="subject">password: <input type="text" id="subject"></label><br><br>
-                <label for="subject">Confirm password: <input type="text" id="subject"></label><br><br>
-                <div class="buttons">
-                    <a href="#" class="btn btn--gost">Clear</a>
-                    <a href="#" class="btn btn--gost">Sign Up</a>
-                </div>
-                <h2>
-                    <a class="social__media" href="#">Do you have account?</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="social__media" href="/html/login.html">Login</a>
-                </h2>
 
+
+    <section id="subscribe">
+        <div class="container1">
+            <h1>Subscribe to for news letter</h1>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Your email" id="email">
+                <button type="submit" class="button1">Subscribe</button>
             </form>
 
         </div>
     </section>
 
+
+    <section id="blog__nav">
+        <ul>
+            <li>
+                <a href="blog.html">All articles</a>
+            </li>
+            <li>
+                <a href="./article.html">New article</a>
+            </li>
+            <li>
+                <a href="question.html">All Question</a>
+            </li>
+        </ul>
+    </section>
+    <section id="all__blog">
+        <div class="all__blog">
+            <div class="item">
+                <div class="article">
+                    <div class="new__blog" id="new__post">
+                        <h3>New post</h3>
+                        <div class="text1">
+                            <label for="title">Title:</label>
+                            <input type="text" placeholder="title">
+                        </div>
+                        <div class="text1">
+                            <label for="post1">Your Post:</label>
+                            <!-- <textarea id="post1" type="post" placeholder="Post Content"> -->
+                            <textarea id="textarea" name="textarea" rows="5" cols="33">
+Write your post here...
+</textarea>
+                        </div>
+                        <div class="buttons">
+                            <a href="#" class="btn btn--gost show">Clear</a>
+                            <a href="#" class="btn btn--gost show">Post</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
     <div class="container footer">
         <div class="media">
@@ -80,8 +111,8 @@
         <div>
             <ul class="ul__nav">
                 <li class="icon__nav"><b><a href="../index.html">HOME</a></b></li>
-                <li class="icon__nav"><b><a href="../index.html">ABOUT</a></b></li>
-                <li class="icon__nav"><b><a href="./blog.html">BLOG</a></b></li>
+                <li class="icon__nav"><b><a href="#aboutMe">ABOUT</a></b></li>
+                <li class="icon__nav"><b><a href="#">BLOG</a></b></li>
                 <li class="icon__nav"><b><a href="../html/contact.html">CONTACT</a></b></li>
                 <li class="icon__nav"><b><a href="../html/login.html">LOGIN</a></b></li>
             </ul>
