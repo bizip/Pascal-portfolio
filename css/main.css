@@ -155,7 +155,7 @@ body {
 
 .me {
     width: 50rem;
-    height: 50rem;
+    height: auto;
 }
 
 .about {
@@ -219,4 +219,10 @@ body {
     font-size: 1.2rem;
     color: #fff;
     letter-spacing: 0.2rem;
+}
+
+#map {
+    height: 40rem;
+    width: 100%;
+    border-radius: 5%;
 }
