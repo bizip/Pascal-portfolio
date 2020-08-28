@@ -52,13 +52,19 @@
     padding-top: 2rem;
 }
 
+.error__message {
+    background-color: #ac2a2a;
+    color: #fff;
+    font-size: 2rem;
+}
+
 .form__input label {
     font-size: 1.6rem;
     color: #fff;
 }
 
 input[type=text],
-input[type=text]:focus {
+input[type=password] {
     border-bottom: 2px dashed #fff;
     border-radius: 4px;
     background-color: #434040;
@@ -69,15 +75,17 @@ input[type=text]:focus {
     width: 20rem;
     font-size: 1rem;
     display: inline;
-    padding: 2rem;
+    padding: 1.5rem;
+    outline: none;
 }
 
 #textarea {
-    background-color: rgb(155, 150, 150);
+    background-color: rgb(70, 66, 66);
     width: 25rem;
     height: 7.5rem;
     margin-top: 2.5rem;
     color: #fff;
+    font-size: 2rem;
 }
 
 #textarea {
@@ -87,4 +95,19 @@ input[type=text]:focus {
 
 .form__input {
     text-align: center;
+}
+
+.form__input input,
+.form__input input {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+form button {
+    width: 8rem;
+    height: 4rem;
+    margin-right: 2rem;
+    background-color: #114486;
+    font-size: 2rem;
+    border-radius: 20%;
 }

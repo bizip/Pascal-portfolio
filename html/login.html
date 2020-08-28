@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/queries.css">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/main.js"></script>
     <title>Login | Bizimungu pascal</title>
 </head>
 
@@ -47,14 +48,12 @@
             <h1 class="contact__heading">
                 Login
             </h1>
-
-            <form action="#" method="post" class="form__input">
-                <label for="email">Email: <input type="text" id="email"></label><br><br>
-                <label for="subject">Subject: <input type="text" id="subject"></label><br>
-                <div class="buttons">
-                    <a href="#" class="btn btn--gost">Clear</a>
-                    <a href="#" class="btn btn--gost">Log In</a>
-                </div>
+            <p id="errorLoginMessage"></p>
+            <form action="#" method="post" name="LoginForm" class="form__input" onsubmit="return validateLoginForm()">
+                <label for="emailLogin">Email: <input type="text" id="loginEmail"></label><br><br>
+                <label for="subject">Password: <input type="password" id="loginPassword"></label><br>
+                <button type="reset" id="ClearButton">Clear</button>
+                <button type="submit" id="sendLoginButton">Send</button>
                 <h2>
                     <a class="social__media" href="#">Forgot password?</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="social__media" href="/html/signup.html">Sign Up</a>
                 </h2>

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/queries.css">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/main.js"></script>
     <title>Sign Up | Bizimungu pascal</title>
 </head>
 
@@ -27,6 +28,7 @@
             <li class="navigation__item"><a href="contact.html" class="navigation__link">Contact</a></li>
             <li class="navigation__item"><a href="./blog.html" class="navigation__link">Blog</a></li>
             <li class="navigation__item"><a href="../html/login.html" class="navigation__link">Login</a></li>
+            <li class="navigation__item"><a href="../index.html" class="navigation__link">Home/li>
             </ul>
         </nav>
 
@@ -36,27 +38,25 @@
             <img src="../images/bzp-logo.png" alt="bzp logo" class="logo">
             <ul class="main-nav">
                 <li><a href="../index.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="../html/login.html">Login</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="../html/login.html">Login</a></li>
             </ul>
-        </div>
+    </div>
     </nav>
     <section class="contactMe">
         <div class="contact__form">
             <h1 class="contact__heading">
-                Login
+                Create account
             </h1>
-
-            <form action="#" method="post" class="form__input">
-                <label for="email">Full Name: <input type="text" id="email"></label><br><br>
-                <label for="subject">Email: <input type="text" id="subject"></label><br><br>
-                <label for="subject">password: <input type="text" id="subject"></label><br><br>
-                <label for="subject">Confirm password: <input type="text" id="subject"></label><br><br>
-                <div class="buttons">
-                    <a href="#" class="btn btn--gost">Clear</a>
-                    <a href="#" class="btn btn--gost">Sign Up</a>
-                </div>
+            <p id="errorSignUpMessage"></p>
+            <form action="#" method="post" class="form__input" name="signUpForm" onsubmit="return validateSignUpForm()">
+                <label for="signUpFullName">Full Name: <input type="text" id="signUpFullName"></label><br><br>
+                <label for="signUpEmail">Email: <input type="text" id="signUpEmail"></label><br><br>
+                <label for="SignUpPassword">password: <input type="password" id="signUpPassword"></label><br><br>
+                <label for="confirmPassword">Confirm password: <input type="password" id="confirmPassword"></label><br><br>
+                <button type="reset" id="ClearButton">Clear</button>
+                <button type="submit" id="sendLoginButton">Send</button>
                 <h2>
                     <a class="social__media" href="#">Do you have account?</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="social__media" href="/html/login.html">Login</a>
                 </h2>
