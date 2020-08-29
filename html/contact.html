@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/queries.css">
     <link rel="stylesheet" href="../css/contact.css">
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/database.js"></script>
 
     <title>Contact Me | Bizimungu pascal</title>
 </head>
@@ -57,7 +61,8 @@
                 Send me a message
             </h1>
             <p id="error__message"></p>
-            <form action="#" method="post" name="myForm" class="form__input" onsubmit="return validateForm()">
+            <p class="alert__message">Your message has been sent thank you.</p>
+            <form action="#" method="post" name="myForm" class="form__input" onsubmit="return validateForm()" id="form__contact">
 
                 <label for="name1">Full name: <input type="text" id="name1" name="name"></label><br>
                 <label for="email1">Email: <input type="text" id="email1" name="email"></label><br>
@@ -95,7 +100,7 @@
         </div>
 
     </div>
-    <script src="../js/main.js"></script>
+
     <script src="https://kit.fontawesome.com/6e8f0d4349.js" crossorigin="anonymous"></script>
 </body>
 
