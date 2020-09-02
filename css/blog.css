@@ -68,6 +68,16 @@
     text-align: center;
 }
 
+.item1 {
+    background-color: #FFF7F7;
+    margin: 1rem 4rem;
+    font-size: 2rem;
+    width: auto;
+    height: auto;
+    text-align: left;
+    padding: 1rem;
+}
+
 .item .article {
     text-align: left;
     padding: 0;
