@@ -110,6 +110,7 @@ form button {
     background-color: #114486;
     font-size: 2rem;
     border-radius: 20%;
+    color: #fff;
 }
 
 .alert__message {
@@ -117,5 +118,5 @@ form button {
     color: #fff;
     font-size: 2rem;
     text-align: center;
-    display: none;
+    display: block;
 }

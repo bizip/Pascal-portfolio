@@ -215,7 +215,7 @@
         }
         .me {
             width: 50rem;
-            height: 60rem;
+            height: auto;
         }
         .navigation__checkbox:checked~.navigation__background {
             transform: scale(50);
@@ -280,7 +280,7 @@
         }
         .me {
             width: 50rem;
-            height: 60rem;
+            height: auto;
         }
         /* Navigation menu */
         .navigation__nav {

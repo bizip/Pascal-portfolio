@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/queries.css">
     <link rel="stylesheet" href="../css/contact.css">
-    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-firestore.js"></script>
+    <script defer src="../js/main.js"></script>
+    <script defer src="../js/contact.js"></script>
     <script src="../js/database.js"></script>
 
     <title>Contact Me | Bizimungu pascal</title>
@@ -61,10 +62,10 @@
                 Send me a message
             </h1>
             <p id="error__message"></p>
-            <p class="alert__message">Your message has been sent thank you.</p>
-            <form action="#" method="post" name="myForm" class="form__input" onsubmit="return validateForm()" id="form__contact">
+            <!-- <p class="alert__message">Your message has been sent thank you.</p> -->
+            <form action="#" method="post" name="myForm" class="form__input" id="form__contact">
 
-                <label for="name1">Full name: <input type="text" id="name1" name="name"></label><br>
+                <label for="name1">Full name: <input type="text" id="name1" name="fullName"></label><br>
                 <label for="email1">Email: <input type="text" id="email1" name="email"></label><br>
                 <label for="subject1">Subject: <input type="text" id="subject1" name="subject"></label><br>
                 <textarea id="textarea" name="textarea" placeholder="Write your message here...">

@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../css/queries.css">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/login.css">
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
     <script src="../js/main.js"></script>
     <title>Login | Bizimungu pascal</title>
 </head>
@@ -49,6 +51,7 @@
                 Login
             </h1>
             <p id="errorLoginMessage"></p>
+            <p class="alert__message">Your message has been sent thank you.</p>
             <form action="#" method="post" name="LoginForm" class="form__input" onsubmit="return validateLoginForm()">
                 <label for="emailLogin">Email: <input type="text" id="loginEmail"></label><br><br>
                 <label for="subject">Password: <input type="password" id="loginPassword"></label><br>

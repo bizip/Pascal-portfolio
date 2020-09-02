@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="../css/queries.css">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/login.css">
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-analytics.js"></script>
     <script src="../js/main.js"></script>
     <title>Sign Up | Bizimungu pascal</title>
 </head>
@@ -50,7 +52,8 @@
                 Create account
             </h1>
             <p id="errorSignUpMessage"></p>
-            <form action="#" method="post" class="form__input" name="signUpForm" onsubmit="return validateSignUpForm()">
+            <p class="alert__message">Your message has been sent thank you.</p>
+            <form action="#" method="post" id="form__input" class="form__input" name="signUpForm" onsubmit="return validateSignUpForm()">
                 <label for="signUpFullName">Full Name: <input type="text" id="signUpFullName"></label><br><br>
                 <label for="signUpEmail">Email: <input type="text" id="signUpEmail"></label><br><br>
                 <label for="SignUpPassword">password: <input type="password" id="signUpPassword"></label><br><br>
