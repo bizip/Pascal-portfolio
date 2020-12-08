@@ -131,3 +131,6 @@
 .show {
     background-color: rgb(9, 40, 97);
 }
+.rounded-comment{
+    border-radius: 40px;
+}

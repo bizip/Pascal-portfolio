@@ -1,6 +1,5 @@
 /* CSS variables */
 
-var(--color, #636e72);
 *,
 *::after,
 *::before {
@@ -47,7 +46,7 @@ body {
 
 .heading-primary--main {
     display: block;
-    as font-size: 3.3rem;
+font-size: 3.3rem;
     font-weight: 700;
     letter-spacing: 1rem;
 }
@@ -226,4 +225,7 @@ body {
     height: 40rem;
     width: 100%;
     border-radius: 5%;
+}
+.rounded-comment{
+    border-radius: 80%;
 }
